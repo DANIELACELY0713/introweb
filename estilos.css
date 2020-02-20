@@ -1,0 +1,28 @@
+html,body{
+	height: 100%;
+}
+
+body{
+	background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 31%, rgba(73,165,191,1) 73%, rgba(73,165,191,1) 81%);
+}
+
+h1{
+	color: orange;
+	font-family: 'Vollkorn', serif;
+	font-family: 'Lacquer', sans-serif;
+	letter-spacing: 0.1em;
+	text-align: center;
+	text-shadow: 2px 5px 0.4em black;
+	}
+	.galeria{
+		display:flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		width: 60%
+	}
+.galeria div{
+	filter: grayscale(1);
+}
+.galeria div:hover{
+	filter: grayscale(0);
+}
